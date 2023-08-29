@@ -1,0 +1,58 @@
+const MENU_DATA = [
+  {
+    id: 1,
+    imgUrl: '/images/food2.jpg',
+    reviews: '2',
+    restoName: 'Vivian - fine Indian',
+    country_food: 'Indian',
+    location: 'Ottawa',
+    timesOfBook: 'Booked 3 times today',
+  },
+  {
+    id: 2,
+    imgUrl: '/images/food3.jpg',
+    reviews: '2',
+    restoName: 'Vivian - fine Indian',
+    country_food: 'Indian',
+    location: 'Ottawa',
+    timesOfBook: 'Booked 3 times today',
+  },
+  {
+    id: 3,
+    imgUrl: '/images/food4.jpg',
+    reviews: '2',
+    restoName: 'Vivian - fine Indian',
+    country_food: 'Indian',
+    location: 'Ottawa',
+    timesOfBook: 'Booked 3 times today',
+  },
+  {
+    id: 4,
+    imgUrl: '/images/food5.jpg',
+    reviews: '2',
+    restoName: 'Vivian - fine Indian',
+    country_food: 'Indian',
+    location: 'Ottawa',
+    timesOfBook: 'Booked 3 times today',
+  },
+  {
+    id: 5,
+    imgUrl: '/images/food6.jpg',
+    reviews: '2',
+    restoName: 'Vivian - fine Indian',
+    country_food: 'Indian',
+    location: 'Ottawa',
+    timesOfBook: 'Booked 3 times today',
+  },
+  {
+    id: 6,
+    imgUrl: '/images/food7.jpg',
+    reviews: '2',
+    restoName: 'Vivian - fine Indian',
+    country_food: 'Indian',
+    location: 'Ottawa',
+    timesOfBook: 'Booked 3 times today',
+  },
+];
+
+export { MENU_DATA };
