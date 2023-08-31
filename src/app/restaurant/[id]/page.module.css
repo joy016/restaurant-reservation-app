@@ -44,8 +44,12 @@
 }
 
 .restaurant__reservation {
-  height: 20vh;
-  background-color: pink;
+  height: 30%;
+  background-color: #fff;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px;
 }
 
 @media (max-width: 865px) {

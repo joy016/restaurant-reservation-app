@@ -1,3 +1,7 @@
+.restaurant__details-restoName {
+  font-size: 2rem;
+}
+
 .restaurant__details-reviews {
   display: flex;
   gap: 10px;
@@ -29,7 +33,6 @@
   box-shadow: 0 4px 8px rgba(117, 101, 101, 0.2);
 }
 
-
 @media (max-width: 865px) {
   .restaurant {
     grid-template-columns: 1fr;
@@ -43,5 +46,20 @@
     grid-template-columns: 1fr;
     width: 88%;
     top: 17rem;
+  }
+  .restaurant__details-restoName {
+    font-size: 1.2em;
+  }
+
+  .restaurant__details-review,
+  .restaurant__details-food-description {
+    font-size: 0.7em;
+  }
+
+  .restaurant__details-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 40rem;
+    gap: 12px;
   }
 }

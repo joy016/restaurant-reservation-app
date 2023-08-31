@@ -36,7 +36,7 @@ export default function OverviewPage({ restoName, reviews }: OverviewProps) {
 
   return (
     <>
-      <h1>{restoName}</h1>
+      <h1 className={styles['restaurant__details-restoName']}>{restoName}</h1>
       <div className={styles['restaurant__details-reviews']}>
         <div>{renderStar()}</div>
         <p

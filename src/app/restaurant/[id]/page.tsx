@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { MENU_DETAILS } from '../../../../const/restaurant-data';
 import styles from './page.module.css';
 import OverviewPage from './components/overview/Overview';
+import ReservationCard from './components/reservation-card/ReservationCard';
 
 export default function MenuDetails({ params }: { params: { id: string } }) {
   const singleMenuDetailsIndex = MENU_DETAILS.findIndex(
@@ -42,7 +43,9 @@ export default function MenuDetails({ params }: { params: { id: string } }) {
         </div>
       </div>
 
-      <div className={styles['restaurant__reservation']}>Reservation</div>
+      <div className={styles['restaurant__reservation']}>
+        <ReservationCard />
+      </div>
     </div>
   );
 }
