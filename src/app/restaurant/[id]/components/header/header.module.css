@@ -1,0 +1,27 @@
+.resto-name-holder {
+  background: linear-gradient(
+    0.647turn,
+    #1a0a47cc,
+    #0d1b4599 0.01%,
+    #0d1b45cc 51.04%,
+    #0d1b45 99.1%
+  );
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.resto__resto-name {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+@media (max-width: 570px) {
+  .resto__resto-name {
+    font-size: 1.5em;
+  }
+}

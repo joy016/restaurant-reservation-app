@@ -1,0 +1,47 @@
+.restaurant__details-reviews {
+  display: flex;
+  gap: 10px;
+}
+
+.restaurant__details-starIcon {
+  color: #e7b10a;
+}
+
+.restaurant__details-review {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.restaurant__details-food-description {
+  font-size: 0.8em;
+}
+
+.restaurant__details-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 40rem;
+  gap: 10px;
+}
+
+.restaurant__details-photo {
+  background-size: cover;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(117, 101, 101, 0.2);
+}
+
+
+@media (max-width: 865px) {
+  .restaurant {
+    grid-template-columns: 1fr;
+    width: 80%;
+    top: 17rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .restaurant {
+    grid-template-columns: 1fr;
+    width: 88%;
+    top: 17rem;
+  }
+}
