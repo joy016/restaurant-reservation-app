@@ -44,11 +44,12 @@
 }
 
 .restaurant__reservation {
-  height: 30%;
+  height: 17rem;
   background-color: #fff;
   border-radius: 3px;
   display: flex;
   flex-direction: column;
+  gap: 10px;
   padding: 10px 25px;
 }
 
@@ -65,5 +66,16 @@
     grid-template-columns: 1fr;
     width: 88%;
     top: 17rem;
+    padding-bottom: 5rem;
+  }
+
+  .restaurant__reservation {
+    height: 16rem;
+    background-color: #fff;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 25px;
   }
 }

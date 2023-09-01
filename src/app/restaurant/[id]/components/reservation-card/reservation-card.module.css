@@ -1,0 +1,60 @@
+.restaurant__reservation-partysize {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.restaurant__reservation-personpicker {
+  border: 1px solid #c4c1a4;
+  padding: 6px;
+  outline: none;
+}
+
+.restaurant__reservation-datetime {
+  display: flex;
+  gap: 6rem;
+}
+
+.restaurant__reservation-date,
+.restaurant__reservation-time {
+  font-size: 0.8em;
+  margin: 0;
+  font-weight: bold;
+}
+
+.restaurant__reservation-datepicker {
+  margin-right: 10px;
+  border: 1px solid #c4c1a4;
+  padding: 5px;
+  outline: none;
+}
+
+.restaurant__reservation-timepicker {
+  border: 1px solid #c4c1a4;
+  padding: 6px;
+  outline: none;
+}
+
+.restaurant__reservation-button {
+  padding: 10px;
+  border-style: none;
+  background-color: #bb2525;
+  color: #fff;
+  letter-spacing: 2px;
+  transition: background-color 0.3s ease;
+}
+
+.restaurant__reservation-button--hover:hover {
+  background-color: #ff6969;
+  color: #000;
+}
+
+@media (max-width: 500px) {
+  .restaurant__reservation-button {
+    padding: 7px 0;
+    width: 10rem;
+    border-style: none;
+    background-color: #bb2525;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+}
